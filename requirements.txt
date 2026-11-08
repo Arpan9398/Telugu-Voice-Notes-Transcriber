@@ -1,0 +1,12 @@
+# Core
+openai-whisper>=20240930
+torch>=2.0
+streamlit>=1.40        # st.audio_input (microphone recording) needs >= 1.40
+librosa>=0.10.2
+soundfile>=0.12.1
+jiwer>=3.0.0           # process_words / process_characters API
+numpy>=1.24
+python-dotenv>=1.0
+
+# Only needed by scripts/generate_sample_audio.py (needs internet)
+gTTS>=2.5
